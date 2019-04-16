@@ -1,0 +1,52 @@
+*{
+    font-family:"微軟正黑體";
+}
+body{
+    background: #56CCF2;
+    background: -webkit-linear-gradient(to right, #3470b1,#85d5e6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3470b1, #85d5e6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.path2{
+    cursor:pointer;
+}
+.path2:hover{
+    fill:rgba(255,255,255,0.5);
+    transform: translateY(-5px);
+    box-shadow:0px 0px 11px rgba(0,123,255,0);
+    stroke:#fff;
+    stroke-width:2px;
+}
+.select-path{
+fill:rgba(255,255,255,0.5);
+}
+
+#upd-btn:hover{
+    box-shadow:0px 0px 11px rgba(0,123,255,0);
+    background-color: rgba(133,137,142,0.1);
+}
+.nav-link2{
+    display: block;
+    padding: .5rem 1.2rem;
+    cursor:pointer;
+    color:#007bff;
+}
+.nav-link3{
+    display: block;
+    padding: .5rem 1.2rem;
+    cursor:pointer;
+    color:#fff;
+    background-color:#007bff;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
